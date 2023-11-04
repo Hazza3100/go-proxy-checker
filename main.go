@@ -70,7 +70,7 @@ func (pc *ProxyChecker) RunChecks() {
 }
 
 func main() {
-	file, err := os.Open("proxy.txt")
+	file, err := os.Open("proxies.txt")
 	if err != nil {
 		fmt.Println(err)
 		return
